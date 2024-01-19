@@ -48,7 +48,7 @@ docker compose run web rails db:migrate
 次のコマンドでアプリケーションを起動する。
 
 ```
-docker compose run web rails db:migrate
+docker compose up
 ```
 
 ブラウザで`localhost:3000`にアクセスして、下の画面が表示されれば成功。
